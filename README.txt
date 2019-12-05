@@ -17,6 +17,9 @@ del usuario root si se ha especificado durante la instalación de Mysql
 • Ejecutar create user ”adoptappadmin@localhost” identified by ’adoptappadmin’
 • Ejecutar grant all privileges on adoptapp to adoptappadmin@localhost with
 grantoption
+
+Por ultimo ejecutar el script SQL que se adjunta para poblar la base de datos
+
 Para el despliegue del Backend :
 • Abrimos una terminal en la ruta del archivo AdoptApp-0.0.1-SNAPSHOT
 • Ejecutamos el comando : $java -jar AdoptApp-0.0.1-SNAPSHOT
@@ -36,4 +39,3 @@ AllowOverride none
 Por último publicamos los recursos del Frontend con el comando httpd desde la carpeta
 \bin del directorio de Apache
 
-Por ultimo ejecutar el script SQL que se adjunta para poblar la base de datos
